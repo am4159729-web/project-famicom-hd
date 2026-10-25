@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-famicon"
+version = "0.1.0"
+description = "A top-down action-adventure in the spirit of the 8-bit classics, written in Python and pygame."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pygame>=2.5"]
+
+[project.scripts]
+project-famicon = "famicon.app:main"
+
+[tool.setuptools]
+packages = ["famicon", "famicon.data"]
+
+[tool.setuptools.package-data]
+famicon = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
