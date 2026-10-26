@@ -112,8 +112,3 @@ keys, bosses, secrets, saves, plus long random-input runs that must never crash.
 
 More dungeons and bosses, multiple save slots, a warp whistle, richer overworld set pieces, gamepad
 support. Contributions welcome.
-
-## License
-
-MIT. See [LICENSE](LICENSE). This is an independent fan-style project and is not affiliated with or
-endorsed by any game company.
